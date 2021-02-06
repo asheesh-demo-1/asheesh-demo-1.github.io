@@ -1,0 +1,1 @@
+./spec/features/hub/assignments_spec.rb

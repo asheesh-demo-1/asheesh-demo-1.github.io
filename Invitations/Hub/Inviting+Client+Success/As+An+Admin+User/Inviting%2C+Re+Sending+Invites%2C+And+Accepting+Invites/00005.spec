@@ -1,0 +1,1 @@
+./spec/features/hub/invitations/client_success_spec.rb

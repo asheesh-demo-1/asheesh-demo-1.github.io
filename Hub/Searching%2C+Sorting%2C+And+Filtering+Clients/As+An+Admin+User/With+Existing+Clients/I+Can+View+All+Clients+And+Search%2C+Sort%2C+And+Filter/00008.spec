@@ -1,0 +1,1 @@
+./spec/features/hub/clients_searching_sorting_and_filtering_spec.rb

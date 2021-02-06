@@ -1,0 +1,646 @@
+<html lang="en" class="background--white"><head>
+    
+
+    <title>Add a new client | GetYourRefund.org</title>
+
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Maximize your refund by filing with our trusted volunteers. Available to you online or in person!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://127.0.0.1:9887/en/hub/clients/new">
+    <meta property="og:title" content="Add a new client | GetYourRefund.org">
+    <meta property="og:description" content="Maximize your refund by filing with our trusted volunteers. Available to you online or in person!">
+    <meta property="og:image" content="http://127.0.0.1:9887/assets/social_share_banner-2627e4187e4cd35a80746b84de2dbd44241efb34f9a4ae31e98c7a754da7ba39.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://127.0.0.1:9887/en/hub/clients/new">
+    <meta property="twitter:title" content="Add a new client | GetYourRefund.org">
+    <meta property="twitter:description" content="Maximize your refund by filing with our trusted volunteers. Available to you online or in person!">
+    <meta property="twitter:image" content="http://127.0.0.1:9887/assets/social_share_banner-2627e4187e4cd35a80746b84de2dbd44241efb34f9a4ae31e98c7a754da7ba39.png">
+
+    <link rel="canonical" href="http://127.0.0.1:9887/en/hub/clients/new">
+    <link rel="alternate" href="http://127.0.0.1:9887/en/hub/clients/new" hreflang="x-default">
+    <link rel="alternate" href="http://127.0.0.1:9887/en/hub/clients/new" hreflang="en">
+    <link rel="alternate" href="http://127.0.0.1:9887/es/hub/clients/new" hreflang="es">
+
+    
+    
+
+    <link rel="stylesheet" media="all" href="/assets/application-f35b6b553c0205c3268f2401ed9bfaba82a5df7d0b9445f9a59db801fbb43fa3.css">
+    <script src="/assets/application-ec2a321ac7dda1a59cbfc4dc3c43b30224a746deba57aaccf22b660445689edc.js"></script>
+
+    <link rel="shortcut icon" type="image/png" href="/assets/checkbox-logo--black-ef44fd73e20340f869f5a0afdc7448f1079c094ad8d0267b753e03e3539ffbb0.png" sizes="57x57">
+    <script>
+      window.appData = JSON.parse("{\"controller_action\":\"Hub::ClientsController#new\",\"full_path\":\"/en/hub/clients/new\"}");
+      window.mixpanelData = window.appData;
+    </script>
+    <script src="/packs-test/js/application-f8410a3fca22ebab2f7c.js"></script>
+  </head>
+
+  <body class="admin honeycrisp-compact">
+    <div class="page-wrapper">
+        <header class="main-header">
+  <div class="toolbar">
+    <div class="toolbar__left">
+      <div class="toolbar__item main-header__title">
+        <a class="toolbar__logo-text main-header__logo" href="/en/hub">
+          The Hub
+</a>      </div>
+    </div>
+    <div class="toolbar__right">
+        <a lang="es" data-track-click="intake-language-changed" data-track-attributes-to_locale="es" data-track-attributes_from_locale="en" class="toolbar__item text--small" href="/es/hub/clients/new">Español</a>
+        <a class="toolbar__item" href="/en/hub/profile">
+    Welcome <strong class="user__name">Admin the 1th</strong>
+</a>
+  <form class="toolbar__item" action="/en/hub/sign_out" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete">
+    <input type="submit" name="commit" value="Sign out" class="button--link">
+</form>
+    </div>
+  </div>
+</header>
+
+
+        <div class="slab slab--flash flash--alert">
+    <div class="grid">
+      <div class="grid__item">
+        This site is for example purposes only. If you want help with your taxes, go to
+        <a href="https://www.getyourrefund.org">GetYourRefund.org</a>.
+      </div>
+    </div>
+  </div>
+
+
+
+      <div class="flash-alerts">
+        
+      </div>
+
+        <main role="main">
+      <div class="hub-form">
+    <form action="/en/hub/clients" accept-charset="UTF-8" method="post">
+      <h1 class="form-card__title">
+        Add a new client
+      </h1>
+      <div class="form-group">
+  <label class="" for="hub_create_client_form_service_type"><p class="form-question">Service type</p>
+</label>
+  <div class="select">
+    <select class="select__element" name="hub_create_client_form[service_type]" id="hub_create_client_form_service_type"><option value="drop_off">Drop off</option></select>
+  </div>
+  
+</div>
+
+      <div class="form-group">
+  <label class="" for="hub_create_client_form_signature_method"><p class="form-question">Signature method</p>
+</label>
+  <div class="select">
+    <select class="select__element" name="hub_create_client_form[signature_method]" id="hub_create_client_form_signature_method"><option value="online">Online</option>
+<option value="in_person">In person</option></select>
+  </div>
+  
+</div>
+
+      <div class="form-group">
+  <label class="" for="hub_create_client_form_vita_partner_id"><p class="form-question">Assign to</p>
+</label>
+  <div class="select">
+    <select class="select__element" name="hub_create_client_form[vita_partner_id]" id="hub_create_client_form_vita_partner_id"><optgroup label="GYR National Organization"><option value="1">GYR National Organization</option></optgroup><optgroup label="Brassica Asset Builders"><option value="2">Brassica Asset Builders</option>
+<option value="3">Floret Financial Readiness</option></optgroup></select>
+  </div>
+  
+</div>
+
+
+      <div id="primary-info">
+  <h3 class="h2">Primary Contact Info:</h3>
+  <div class="hub-form__row fill">
+    <div class="form-group">
+<label for="hub_create_client_form_primary_first_name"><p class="form-question">Legal first name</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--long text-input" id="hub_create_client_form_primary_first_name" name="hub_create_client_form[primary_first_name]">
+  
+</div>
+
+    <div class="form-group">
+<label for="hub_create_client_form_primary_last_name"><p class="form-question">Legal last name</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--long text-input" id="hub_create_client_form_primary_last_name" name="hub_create_client_form[primary_last_name]">
+  
+</div>
+
+  </div>
+  <div class="form-group">
+<label for="hub_create_client_form_preferred_name"><p class="form-question">Preferred full name</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--long text-input" id="hub_create_client_form_preferred_name" name="hub_create_client_form[preferred_name]">
+  
+</div>
+
+
+    <div class="form-group">
+  <label class="" for="hub_create_client_form_timezone"><p class="form-question">Timezone</p>
+</label>
+  <div class="select">
+    <select class="select__element" name="hub_create_client_form[timezone]" id="hub_create_client_form_timezone"><option value="America/Adak">America/Adak</option>
+<option value="Pacific/Honolulu">Hawaii</option>
+<option value="America/Juneau">Alaska</option>
+<option value="America/Anchorage">America/Anchorage</option>
+<option value="America/Metlakatla">America/Metlakatla</option>
+<option value="America/Nome">America/Nome</option>
+<option value="America/Sitka">America/Sitka</option>
+<option value="America/Yakutat">America/Yakutat</option>
+<option value="America/Los_Angeles">Pacific Time (US &amp; Canada)</option>
+<option value="America/Boise">America/Boise</option>
+<option value="America/Phoenix">Arizona</option>
+<option value="America/Denver">Mountain Time (US &amp; Canada)</option>
+<option value="America/Indiana/Knox">America/Indiana/Knox</option>
+<option value="America/Indiana/Tell_City">America/Indiana/Tell_City</option>
+<option value="America/Menominee">America/Menominee</option>
+<option value="America/North_Dakota/Beulah">America/North_Dakota/Beulah</option>
+<option value="America/North_Dakota/Center">America/North_Dakota/Center</option>
+<option value="America/North_Dakota/New_Salem">America/North_Dakota/New_Salem</option>
+<option value="America/Chicago">Central Time (US &amp; Canada)</option>
+<option value="America/Detroit">America/Detroit</option>
+<option value="America/Indiana/Marengo">America/Indiana/Marengo</option>
+<option value="America/Indiana/Petersburg">America/Indiana/Petersburg</option>
+<option value="America/Indiana/Vevay">America/Indiana/Vevay</option>
+<option value="America/Indiana/Vincennes">America/Indiana/Vincennes</option>
+<option value="America/Indiana/Winamac">America/Indiana/Winamac</option>
+<option value="America/Kentucky/Louisville">America/Kentucky/Louisville</option>
+<option value="America/Kentucky/Monticello">America/Kentucky/Monticello</option>
+<option selected="selected" value="America/New_York">Eastern Time (US &amp; Canada)</option>
+<option value="America/Indiana/Indianapolis">Indiana (East)</option></select>
+  </div>
+  
+</div>
+
+
+  <div class="form-group">
+  <label class="" for="hub_create_client_form_preferred_interview_language"><p class="form-question">Preferred language</p>
+</label>
+  <div class="select">
+    <select class="select__element" name="hub_create_client_form[preferred_interview_language]" id="hub_create_client_form_preferred_interview_language"><option value=""></option>
+<option value="de">German</option>
+<option value="en">English</option>
+<option value="es">Spanish</option>
+<option value="fa">Farsi</option>
+<option value="fr">French</option>
+<option value="ru">Russian</option>
+<option value="zh">Mandarin</option></select>
+  </div>
+  
+</div>
+
+  
+  <div class="hub-form__row fill align-center">
+    <div class="form-group">
+<label for="hub_create_client_form_email_address"><p class="form-question">Email</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--long text-input" id="hub_create_client_form_email_address" name="hub_create_client_form[email_address]">
+  
+</div>
+
+    <fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[email_notification_opt_in]" type="hidden" value="no"><input checked_value="yes" unchecked_value="no" type="checkbox" value="yes" name="hub_create_client_form[email_notification_opt_in]" id="hub_create_client_form_email_notification_opt_in"> Opt into email notifications
+  </label>
+  
+</fieldset>
+
+  </div>
+  <div class="hub-form__row fill align-center">
+    <div class="form-group">
+<label for="hub_create_client_form_sms_phone_number"><p class="form-question">Phone for texting</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--long text-input" id="hub_create_client_form_sms_phone_number" name="hub_create_client_form[sms_phone_number]">
+  
+</div>
+
+    <fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[sms_notification_opt_in]" type="hidden" value="no"><input checked_value="yes" unchecked_value="no" type="checkbox" value="yes" name="hub_create_client_form[sms_notification_opt_in]" id="hub_create_client_form_sms_notification_opt_in"> Opt into sms notifications
+  </label>
+  
+</fieldset>
+
+  </div>
+  <div class="form-group">
+<label for="hub_create_client_form_phone_number"><p class="form-question">Phone number</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--long text-input" id="hub_create_client_form_phone_number" name="hub_create_client_form[phone_number]">
+  
+</div>
+
+  <div class="form-group">
+<label for="hub_create_client_form_primary_last_four_ssn"><p class="form-question">Last 4 of SSN/ITIN</p>
+</label>        <div class="text-input-group-container">
+          <div class="text-input-group form-width--name field--last-four-ssn">
+            <div class="text-input-group__prefix">XXX-XX-</div><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="tel" class="form-width--name field--last-four-ssn text-input" maxlength="4" id="hub_create_client_form_primary_last_four_ssn" size="4" name="hub_create_client_form[primary_last_four_ssn]">
+          </div>
+        </div>
+
+  
+</div>
+
+
+  <h3 class="h2">Filing Information:</h3>
+  <fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[filing_joint]" type="hidden" value="no"><input checked_value="yes" unchecked_value="no" type="checkbox" value="yes" name="hub_create_client_form[filing_joint]" id="hub_create_client_form_filing_joint"> Filing jointly
+  </label>
+  
+</fieldset>
+
+  <fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[married]" type="hidden" value="no"><input checked_value="yes" unchecked_value="no" type="checkbox" value="yes" name="hub_create_client_form[married]" id="hub_create_client_form_married"> Married
+  </label>
+  
+</fieldset>
+
+  <div class="hub-form__row">
+    <fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[separated]" type="hidden" value="no"><input checked_value="yes" unchecked_value="no" type="checkbox" value="yes" name="hub_create_client_form[separated]" id="hub_create_client_form_separated"> Separated
+  </label>
+  
+</fieldset>
+
+    <div class="form-group">
+<label for="hub_create_client_form_separated_year"><p class="form-question">Separated year</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--short text-input" id="hub_create_client_form_separated_year" name="hub_create_client_form[separated_year]">
+  
+</div>
+
+  </div>
+  <div class="hub-form__row">
+    <fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[widowed]" type="hidden" value="no"><input checked_value="yes" unchecked_value="no" type="checkbox" value="yes" name="hub_create_client_form[widowed]" id="hub_create_client_form_widowed"> Widowed
+  </label>
+  
+</fieldset>
+
+    <div class="form-group">
+<label for="hub_create_client_form_widowed_year"><p class="form-question">Widowed year</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--short text-input" id="hub_create_client_form_widowed_year" name="hub_create_client_form[widowed_year]">
+  
+</div>
+
+  </div>
+  <div class="hub-form__row">
+    <fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[divorced]" type="hidden" value="no"><input checked_value="yes" unchecked_value="no" type="checkbox" value="yes" name="hub_create_client_form[divorced]" id="hub_create_client_form_divorced"> Divorced
+  </label>
+  
+</fieldset>
+
+    <div class="form-group">
+<label for="hub_create_client_form_divorced_year"><p class="form-question">Divorced year</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--short text-input" id="hub_create_client_form_divorced_year" name="hub_create_client_form[divorced_year]">
+  
+</div>
+
+  </div>
+
+  <fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[lived_with_spouse]" type="hidden" value="no"><input checked_value="yes" unchecked_value="no" type="checkbox" value="yes" name="hub_create_client_form[lived_with_spouse]" id="hub_create_client_form_lived_with_spouse"> Lived with spouse
+  </label>
+  
+</fieldset>
+
+  <div class="form-group">
+  <label class="" for="hub_create_client_form_state_of_residence"><p class="form-question">State of residence</p>
+</label>
+  <div class="select">
+    <select class="select__element" name="hub_create_client_form[state_of_residence]" id="hub_create_client_form_state_of_residence"><option value=""></option>
+<option value="AL">Alabama</option>
+<option value="AK">Alaska</option>
+<option value="AS">American Samoa</option>
+<option value="AZ">Arizona</option>
+<option value="AR">Arkansas</option>
+<option value="AA">Armed Forces Americas (except Canada)</option>
+<option value="AE">Armed Forces Europe / Canada / Africa / Middle East</option>
+<option value="AP">Armed Forces Pacific</option>
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+<option value="CT">Connecticut</option>
+<option value="DE">Delaware</option>
+<option value="DC">District of Columbia</option>
+<option value="FM">Federated States of Micronesia</option>
+<option value="FL">Florida</option>
+<option value="GA">Georgia</option>
+<option value="GU">Guam</option>
+<option value="HI">Hawaii</option>
+<option value="ID">Idaho</option>
+<option value="IL">Illinois</option>
+<option value="IN">Indiana</option>
+<option value="IA">Iowa</option>
+<option value="KS">Kansas</option>
+<option value="KY">Kentucky</option>
+<option value="LA">Louisiana</option>
+<option value="ME">Maine</option>
+<option value="MH">Marshall Islands</option>
+<option value="MD">Maryland</option>
+<option value="MA">Massachusetts</option>
+<option value="MI">Michigan</option>
+<option value="MN">Minnesota</option>
+<option value="MS">Mississippi</option>
+<option value="MO">Missouri</option>
+<option value="MT">Montana</option>
+<option value="NE">Nebraska</option>
+<option value="NV">Nevada</option>
+<option value="NH">New Hampshire</option>
+<option value="NJ">New Jersey</option>
+<option value="NM">New Mexico</option>
+<option value="NY">New York</option>
+<option value="NC">North Carolina</option>
+<option value="ND">North Dakota</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="OH">Ohio</option>
+<option value="OK">Oklahoma</option>
+<option value="OR">Oregon</option>
+<option value="PW">Palau</option>
+<option value="PA">Pennsylvania</option>
+<option value="PR">Puerto Rico</option>
+<option value="RI">Rhode Island</option>
+<option value="SC">South Carolina</option>
+<option value="SD">South Dakota</option>
+<option value="TN">Tennessee</option>
+<option value="TX">Texas</option>
+<option value="UT">Utah</option>
+<option value="VT">Vermont</option>
+<option value="VI">Virgin Islands</option>
+<option value="VA">Virginia</option>
+<option value="WA">Washington</option>
+<option value="WV">West Virginia</option>
+<option value="WI">Wisconsin</option>
+<option value="WY">Wyoming</option></select>
+  </div>
+  
+</div>
+
+
+  <h3 class="h2">Mailing Address:</h3>
+  <div class="form-group">
+<label for="hub_create_client_form_street_address"><p class="form-question">Street address</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--long text-input" id="hub_create_client_form_street_address" name="hub_create_client_form[street_address]">
+  
+</div>
+
+  <div class="hub-form__row">
+    <div class="form-group">
+<label for="hub_create_client_form_city"><p class="form-question">City</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--long text-input" id="hub_create_client_form_city" name="hub_create_client_form[city]">
+  
+</div>
+
+    <div class="form-group">
+  <label class="" for="hub_create_client_form_state"><p class="form-question">State</p>
+</label>
+  <div class="select">
+    <select class="select__element" name="hub_create_client_form[state]" id="hub_create_client_form_state"><option value=""></option>
+<option value="AL">Alabama</option>
+<option value="AK">Alaska</option>
+<option value="AS">American Samoa</option>
+<option value="AZ">Arizona</option>
+<option value="AR">Arkansas</option>
+<option value="AA">Armed Forces Americas (except Canada)</option>
+<option value="AE">Armed Forces Europe / Canada / Africa / Middle East</option>
+<option value="AP">Armed Forces Pacific</option>
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+<option value="CT">Connecticut</option>
+<option value="DE">Delaware</option>
+<option value="DC">District of Columbia</option>
+<option value="FM">Federated States of Micronesia</option>
+<option value="FL">Florida</option>
+<option value="GA">Georgia</option>
+<option value="GU">Guam</option>
+<option value="HI">Hawaii</option>
+<option value="ID">Idaho</option>
+<option value="IL">Illinois</option>
+<option value="IN">Indiana</option>
+<option value="IA">Iowa</option>
+<option value="KS">Kansas</option>
+<option value="KY">Kentucky</option>
+<option value="LA">Louisiana</option>
+<option value="ME">Maine</option>
+<option value="MH">Marshall Islands</option>
+<option value="MD">Maryland</option>
+<option value="MA">Massachusetts</option>
+<option value="MI">Michigan</option>
+<option value="MN">Minnesota</option>
+<option value="MS">Mississippi</option>
+<option value="MO">Missouri</option>
+<option value="MT">Montana</option>
+<option value="NE">Nebraska</option>
+<option value="NV">Nevada</option>
+<option value="NH">New Hampshire</option>
+<option value="NJ">New Jersey</option>
+<option value="NM">New Mexico</option>
+<option value="NY">New York</option>
+<option value="NC">North Carolina</option>
+<option value="ND">North Dakota</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="OH">Ohio</option>
+<option value="OK">Oklahoma</option>
+<option value="OR">Oregon</option>
+<option value="PW">Palau</option>
+<option value="PA">Pennsylvania</option>
+<option value="PR">Puerto Rico</option>
+<option value="RI">Rhode Island</option>
+<option value="SC">South Carolina</option>
+<option value="SD">South Dakota</option>
+<option value="TN">Tennessee</option>
+<option value="TX">Texas</option>
+<option value="UT">Utah</option>
+<option value="VT">Vermont</option>
+<option value="VI">Virgin Islands</option>
+<option value="VA">Virginia</option>
+<option value="WA">Washington</option>
+<option value="WV">West Virginia</option>
+<option value="WI">Wisconsin</option>
+<option value="WY">Wyoming</option></select>
+  </div>
+  
+</div>
+
+    <div class="form-group">
+<label for="hub_create_client_form_zip_code"><p class="form-question">ZIP code</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--zip text-input" id="hub_create_client_form_zip_code" name="hub_create_client_form[zip_code]">
+  
+</div>
+
+  </div>
+</div>
+
+      <div id="spouse-info">
+  <h3 class="h2">Spouse Contact Info:</h3>
+  <div class="hub-form__row">
+    <div class="form-group">
+<label for="hub_create_client_form_spouse_first_name"><p class="form-question">Legal first name</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--long text-input" id="hub_create_client_form_spouse_first_name" name="hub_create_client_form[spouse_first_name]">
+  
+</div>
+
+    <div class="form-group">
+<label for="hub_create_client_form_spouse_last_name"><p class="form-question">Legal last name</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--long text-input" id="hub_create_client_form_spouse_last_name" name="hub_create_client_form[spouse_last_name]">
+  
+</div>
+
+  </div>
+  <div class="form-group">
+<label for="hub_create_client_form_spouse_email_address"><p class="form-question">Email</p>
+</label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="form-width--long text-input" id="hub_create_client_form_spouse_email_address" name="hub_create_client_form[spouse_email_address]">
+  
+</div>
+
+  <div class="form-group">
+<label for="hub_create_client_form_spouse_last_four_ssn"><p class="form-question">Last 4 of SSN/ITIN</p>
+</label>        <div class="text-input-group-container">
+          <div class="text-input-group form-width--name field--last-four-ssn">
+            <div class="text-input-group__prefix">XXX-XX-</div><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="tel" class="form-width--name field--last-four-ssn text-input" maxlength="4" id="hub_create_client_form_spouse_last_four_ssn" size="4" name="hub_create_client_form[spouse_last_four_ssn]">
+          </div>
+        </div>
+
+  
+</div>
+
+</div>
+
+      <h2>Tax years</h2>
+      
+      <div class="form-card__stacked-checkboxes spacing-above-0">
+        
+          <div class="hub-form__row">
+            <span><fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[needs_help_2020]" type="hidden" value="no"><input checked_value="yes" unchecked_value="no" type="checkbox" value="yes" name="hub_create_client_form[needs_help_2020]" id="hub_create_client_form_needs_help_2020"> 2020
+  </label>
+  
+</fieldset>
+</span>
+            <input type="hidden" value="2020" name="hub_create_client_form[tax_returns_attributes][0][year]" id="hub_create_client_form_tax_returns_attributes_0_year">
+            <div class="form-group">
+  <label class="" for="hub_create_client_form_tax_returns_attributes_0_certification_level"><p class="form-question">Certification Level</p>
+</label>
+  <div class="select">
+    <select class="select__element" name="hub_create_client_form[tax_returns_attributes][0][certification_level]" id="hub_create_client_form_tax_returns_attributes_0_certification_level"><option value=""></option>
+<option value="advanced">Advanced</option>
+<option value="basic">Basic</option></select>
+  </div>
+  
+</div>
+
+            <fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[tax_returns_attributes][0][is_hsa]" type="hidden" value="0"><input type="checkbox" value="1" name="hub_create_client_form[tax_returns_attributes][0][is_hsa]" id="hub_create_client_form_tax_returns_attributes_0_is_hsa"> HSA
+  </label>
+  
+</fieldset>
+
+          </div>
+
+          <div class="hub-form__row">
+            <span><fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[needs_help_2019]" type="hidden" value="no"><input checked_value="yes" unchecked_value="no" type="checkbox" value="yes" name="hub_create_client_form[needs_help_2019]" id="hub_create_client_form_needs_help_2019"> 2019
+  </label>
+  
+</fieldset>
+</span>
+            <input type="hidden" value="2019" name="hub_create_client_form[tax_returns_attributes][1][year]" id="hub_create_client_form_tax_returns_attributes_1_year">
+            <div class="form-group">
+  <label class="" for="hub_create_client_form_tax_returns_attributes_1_certification_level"><p class="form-question">Certification Level</p>
+</label>
+  <div class="select">
+    <select class="select__element" name="hub_create_client_form[tax_returns_attributes][1][certification_level]" id="hub_create_client_form_tax_returns_attributes_1_certification_level"><option value=""></option>
+<option value="advanced">Advanced</option>
+<option value="basic">Basic</option></select>
+  </div>
+  
+</div>
+
+            <fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[tax_returns_attributes][1][is_hsa]" type="hidden" value="0"><input type="checkbox" value="1" name="hub_create_client_form[tax_returns_attributes][1][is_hsa]" id="hub_create_client_form_tax_returns_attributes_1_is_hsa"> HSA
+  </label>
+  
+</fieldset>
+
+          </div>
+
+          <div class="hub-form__row">
+            <span><fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[needs_help_2018]" type="hidden" value="no"><input checked_value="yes" unchecked_value="no" type="checkbox" value="yes" name="hub_create_client_form[needs_help_2018]" id="hub_create_client_form_needs_help_2018"> 2018
+  </label>
+  
+</fieldset>
+</span>
+            <input type="hidden" value="2018" name="hub_create_client_form[tax_returns_attributes][2][year]" id="hub_create_client_form_tax_returns_attributes_2_year">
+            <div class="form-group">
+  <label class="" for="hub_create_client_form_tax_returns_attributes_2_certification_level"><p class="form-question">Certification Level</p>
+</label>
+  <div class="select">
+    <select class="select__element" name="hub_create_client_form[tax_returns_attributes][2][certification_level]" id="hub_create_client_form_tax_returns_attributes_2_certification_level"><option value=""></option>
+<option value="advanced">Advanced</option>
+<option value="basic">Basic</option></select>
+  </div>
+  
+</div>
+
+            <fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[tax_returns_attributes][2][is_hsa]" type="hidden" value="0"><input type="checkbox" value="1" name="hub_create_client_form[tax_returns_attributes][2][is_hsa]" id="hub_create_client_form_tax_returns_attributes_2_is_hsa"> HSA
+  </label>
+  
+</fieldset>
+
+          </div>
+
+          <div class="hub-form__row">
+            <span><fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[needs_help_2017]" type="hidden" value="no"><input checked_value="yes" unchecked_value="no" type="checkbox" value="yes" name="hub_create_client_form[needs_help_2017]" id="hub_create_client_form_needs_help_2017"> 2017
+  </label>
+  
+</fieldset>
+</span>
+            <input type="hidden" value="2017" name="hub_create_client_form[tax_returns_attributes][3][year]" id="hub_create_client_form_tax_returns_attributes_3_year">
+            <div class="form-group">
+  <label class="" for="hub_create_client_form_tax_returns_attributes_3_certification_level"><p class="form-question">Certification Level</p>
+</label>
+  <div class="select">
+    <select class="select__element" name="hub_create_client_form[tax_returns_attributes][3][certification_level]" id="hub_create_client_form_tax_returns_attributes_3_certification_level"><option value=""></option>
+<option value="advanced">Advanced</option>
+<option value="basic">Basic</option></select>
+  </div>
+  
+</div>
+
+            <fieldset class="input-group form-group">
+  <label class="checkbox">
+    <input name="hub_create_client_form[tax_returns_attributes][3][is_hsa]" type="hidden" value="0"><input type="checkbox" value="1" name="hub_create_client_form[tax_returns_attributes][3][is_hsa]" id="hub_create_client_form_tax_returns_attributes_3_is_hsa"> HSA
+  </label>
+  
+</fieldset>
+
+          </div>
+      </div>
+
+      <button class="button button--primary button--wide" type="submit">
+        Send for prep
+      </button>
+</form>  </div>
+
+  </main>
+
+        <div></div>
+
+    </div>
+    
+    
+  
+
+
+</body></html>

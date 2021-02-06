@@ -1,0 +1,1 @@
+./spec/features/hub/invitations/coalition_lead_spec.rb

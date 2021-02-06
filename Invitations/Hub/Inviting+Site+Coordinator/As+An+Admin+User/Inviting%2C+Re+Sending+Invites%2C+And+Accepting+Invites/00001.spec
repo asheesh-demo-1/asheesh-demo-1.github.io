@@ -1,0 +1,1 @@
+./spec/features/hub/invitations/site_coordinator_spec.rb

@@ -1,0 +1,1 @@
+./spec/features/hub/documents_spec.rb

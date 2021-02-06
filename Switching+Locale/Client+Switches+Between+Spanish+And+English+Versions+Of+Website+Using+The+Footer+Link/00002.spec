@@ -1,0 +1,1 @@
+./spec/features/switching_locale_spec.rb

@@ -1,0 +1,1 @@
+./spec/features/hub/authenticate_spec.rb

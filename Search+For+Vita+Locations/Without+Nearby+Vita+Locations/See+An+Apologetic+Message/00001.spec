@@ -1,0 +1,1 @@
+./spec/features/location_search_spec.rb
